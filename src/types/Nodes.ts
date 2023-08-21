@@ -1,5 +1,5 @@
 export type Node = {
-	id: number;
+	index: number;
 	imgUrl: string;
 }
 

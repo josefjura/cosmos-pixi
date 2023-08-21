@@ -1,0 +1,284 @@
+[
+	{
+		"id": 1,
+		"imgSrc": "images/vivaldi.png",
+		"x": 0,
+		"y": 0,
+		"clickUrl": "https://vivaldi.com",
+		"childNodes": [
+			{
+				"index": 2,
+				"imageSrc": "images/vivaldi1.png"
+			},
+			{
+				"index": 4,
+				"imageSrc": "images/vivaldi2.png"
+			},
+			{
+				"index": 6,
+				"imageSrc": "images/vivaldi3.png"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"imgSrc": "images/telegraph.png",
+		"x": 0,
+		"y": -200,
+		"clickUrl": "https://vivaldi.com",
+		"childNodes": [
+			{
+				"index": 2,
+				"imageSrc": "images/telegraph1.png"
+			},
+			{
+				"index": 4,
+				"imageSrc": "images/telegraph2.png"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"imgSrc": "images/outlook.png",
+		"x": -130,
+		"y": 350,
+		"clickUrl": "https://vivaldi.com",
+		"childNodes": [
+			{
+				"index": 0,
+				"imageSrc": "images/outlook1.png"
+			},
+			{
+				"index": 1,
+				"imageSrc": "images/outlook2,3,4,5.png"
+			},
+			{
+				"index": 2,
+				"imageSrc": "images/outlook2,3,4,5.png"
+			},
+			{
+				"index": 3,
+				"imageSrc": "images/outlook2,3,4,5.png"
+			},
+			{
+				"index": 4,
+				"imageSrc": "images/outlook2,3,4,5.png"
+			},
+			{
+				"index": 6,
+				"imageSrc": "images/outlook6.png"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"imgSrc": "images/spotify.png",
+		"x": -450,
+		"y": 250,
+		"clickUrl": "https://spotify.com",
+		"childNodes": [
+			{
+				"index": 2,
+				"imageSrc": "images/spotify1.png"
+			},
+			{
+				"index": 3,
+				"imageSrc": "images/spotify2.png"
+			},
+			{
+				"index": 4,
+				"imageSrc": "images/spotify3.png"
+			},
+			{
+				"index": 5,
+				"imageSrc": "images/spotify4.png"
+			},
+			{
+				"index": 6,
+				"imageSrc": "images/spotify5.png"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"imgSrc": "images/twitch.png",
+		"x": 350,
+		"y": -350,
+		"clickUrl": "https://vivaldi.com",
+		"childNodes": [
+			{
+				"index": 0,
+				"imageSrc": "images/twitch1.png"
+			},
+			{
+				"index": 1,
+				"imageSrc": "images/twitch2.png"
+			},
+			{
+				"index": 2,
+				"imageSrc": "images/twitch3.png"
+			},
+			{
+				"index": 6,
+				"imageSrc": "images/twitch4.png"
+			},
+			{
+				"index": 7,
+				"imageSrc": "images/twitch5.png"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"imgSrc": "images/ai.png",
+		"x": -250,
+		"y": -500,
+		"clickUrl": "https://vivaldi.com",
+		"childNodes": [
+			{
+				"index": 2,
+				"imageSrc": "images/ai1.png"
+			},
+			{
+				"index": 3,
+				"imageSrc": "images/ai2.png"
+			},
+			{
+				"index": 4,
+				"imageSrc": "images/ai3.png"
+			},
+			{
+				"index": 6,
+				"imageSrc": "images/ai4.png"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"imgSrc": "images/excel.png",
+		"x": 450,
+		"y": 350,
+		"clickUrl": "https://vivaldi.com",
+		"childNodes": [
+			{
+				"index": 2,
+				"imageSrc": "images/spreadsheet.svg"
+			},
+			{
+				"index": 3,
+				"imageSrc": "images/spreadsheet.svg"
+			},
+			{
+				"index": 4,
+				"imageSrc": "images/spreadsheet.svg"
+			},
+			{
+				"index": 5,
+				"imageSrc": "images/excel4.png"
+			},
+			{
+				"index": 6,
+				"imageSrc": "images/excel5.png"
+			},
+			{
+				"index": 7,
+				"imageSrc": "images/spreadsheet.svg"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"imgSrc": "images/powerpoint.png",
+		"x": 700,
+		"y": 350,
+		"clickUrl": "https://vivaldi.com",
+		"childNodes": [
+			{
+				"index": 0,
+				"imageSrc": "images/document.svg"
+			},
+			{
+				"index": 1,
+				"imageSrc": "images/document.svg"
+			},
+			{
+				"index": 2,
+				"imageSrc": "images/document.svg"
+			}
+		]
+	},
+	{
+		"id": 9,
+		"imgSrc": "images/word.png",
+		"x": 550,
+		"y": 100,
+		"clickUrl": "https://vivaldi.com",
+		"childNodes": [
+			{
+				"index": 0,
+				"imageSrc": "images/word1.png"
+			},
+			{
+				"index": 1,
+				"imageSrc": "images/document.svg"
+			},
+			{
+				"index": 2,
+				"imageSrc": "images/word3.png"
+			},
+			{
+				"index": 3,
+				"imageSrc": "images/document.svg"
+			},
+			{
+				"index": 4,
+				"imageSrc": "images/document.svg"
+			},
+			{
+				"index": 6,
+				"imageSrc": "images/document.svg"
+			},
+			{
+				"index": 7,
+				"imageSrc": "images/document.svg"
+			}
+		]
+	},
+	{
+		"id": 10,
+		"imgSrc": "images/youtube.png",
+		"x": 550,
+		"y": -200,
+		"clickUrl": "https://vivaldi.com",
+		"childNodes": [
+			{
+				"index": 1,
+				"imageSrc": "images/youtube2.png"
+			},
+			{
+				"index": 2,
+				"imageSrc": "images/youtube1.png"
+			},
+			{
+				"index": 3,
+				"imageSrc": "images/youtube3.png"
+			},
+			{
+				"index": 4,
+				"imageSrc": "images/youtube4.png"
+			},
+			{
+				"index": 5,
+				"imageSrc": "images/youtube5.png"
+			},
+			{
+				"index": 6,
+				"imageSrc": "images/youtube6.png"
+			},
+			{
+				"index": 7,
+				"imageSrc": "images/youtube7.png"
+			}
+		]
+	}
+]

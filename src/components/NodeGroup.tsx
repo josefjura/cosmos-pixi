@@ -10,17 +10,15 @@ type Props = {
 	data: NodeGroup
 }
 
-const NodeGroup = (props: Props) => {
-	const bind = useDrag({ x: props.x, y: props.y });
-	console.log(bind);
-	const { data, ...size } = props;
+const NodeGroup = ({ data, x, y }: Props) => {
+	const bind = useDrag({ x, y });
 
 	return (
-		<Container {...bind} {...size} name={`group_${data.groupId}`}>
+		<Container {...bind} name={`group_${data.groupId}`}>
 			<Node data={data.parent} parent x={0} y={0} />
-			{data.nodes.map((node, i) => {
-				const position = positionByIndex(45, i, 100);
-				return <Node data={node} x={position.x} y={position.y} key={node.id} />;
+			{data.nodes.map((node) => {
+				const position = positionByIndex(node.index);
+				return <Node data={node} x={position.x} y={position.y} key={node.index} />;
 			})}
 		</Container>
 	)

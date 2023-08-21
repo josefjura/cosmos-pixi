@@ -6,32 +6,31 @@ import { useCallback, useRef, useState } from 'react';
 
 
 export const useDrag = ({ x, y }: Position) => {
-	const sprite = useRef<Container>(null);
+	const ref = useRef<Container>(null);
 	const [isDragging, setIsDragging] = useState<boolean>(false);
 	const [position, setPosition] = useState<Position>({ x, y });
 
 	const onDown = useCallback(() => {
-		const viewport = getViewport(sprite.current);
+		const viewport = getViewport(ref.current);
 		viewport?.drag({ pressDrag: false })
 		return setIsDragging(true);
 	}, []);
 
 	const onUp = useCallback(() => {
-		const viewport = getViewport(sprite.current);
+		const viewport = getViewport(ref.current);
 		viewport?.drag()
 		return setIsDragging(false);
 	}, []);
 
-	// TODO: Remove any
 	const onMove = useCallback((e: FederatedPointerEvent) => {
 		//console.log(isDragging, sprite.current, e.global);
-		if (isDragging && sprite.current) {
-			setPosition(e.global);
+		if (isDragging && ref.current && ref.current.parent) {
+			setPosition(ref.current.parent.toLocal(e.global));
 		}
 	}, [isDragging, setPosition]);
 
 	return {
-		ref: sprite,
+		ref,
 		interactive: true,
 		pointerdown: onDown,
 		pointerup: onUp,
